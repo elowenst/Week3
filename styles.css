@@ -1,0 +1,33 @@
+body{
+    background-color: #343a40;
+    font-family: sans-serif;
+}
+
+.main-header{
+    display: flex;
+    background-color:#343a40;
+    justify-content: center;
+    color: blanchedalmond;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    padding: 20px;
+    
+}
+nav ul li a{
+    color: blanchedalmond;
+    text-decoration: none;
+    font-weight: bolder;
+}
+nav img{
+    display: flex;
+    right: 0px;
+    height: 40px;
+}
