@@ -17,6 +17,9 @@ nav ul{
     display: flex;
     justify-content: center;
 }
+.row img{
+    display: none;
+}
 nav ul li{
     padding: 20px;
     
@@ -30,4 +33,13 @@ nav img{
     display: flex;
     right: 0px;
     height: 40px;
+}
+@media only screen and (max-width: 576px){
+    .row ul{
+        display: none;
+    }
+    .row img{
+        display:block;
+    }
+    
 }
