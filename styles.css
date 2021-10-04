@@ -121,6 +121,7 @@ nav img{
       display: flex;
       color: blanchedalmond;
       justify-content: center;
+      margin-bottom: 20px;
   }
 @media only screen and (max-width: 576px){
     .row ul{
