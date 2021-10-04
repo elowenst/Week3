@@ -87,16 +87,15 @@ nav img{
   border:dashed;
   margin-top: 2%;
   justify-content: space-around;
+  padding: 1.5em;
 }
 
 .other-news ul li{
     border:solid;
-    margin-bottom: 5%;
-    align-items: stretch;
-    
+    margin-bottom: 5%;  
 }
 .other-news img{
-    width: 300px;
+    width: 30vw;
     height: auto;
   }
 
