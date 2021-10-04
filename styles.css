@@ -7,9 +7,9 @@ body{
 .main-header{
     display: flex;
     background-color:#343a40;
-    justify-content: center;
+    justify-content: space-around;
     color: blanchedalmond;
-    font-size: 4vw;
+    font-size: 5vw;
     margin-top: 20px;
 }
 ul{
@@ -18,13 +18,19 @@ ul{
 }
 .row{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    color: blanchedalmond;
+    font-size: 2.5vw;
+}
+.row p{
+    color: burlywood;
 }
 .row img{
     display: none;
 }
 nav ul li{
-    padding: 20px;
+    padding: 2vw;
     
 }
 nav ul li a{
@@ -140,7 +146,7 @@ nav img{
     }
     .row{
         display:flex;
-        justify-content: flex-end;
+        justify-content: space-between;
+        padding: 1.5em;
     }
-    
 }
