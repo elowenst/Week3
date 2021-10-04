@@ -65,7 +65,8 @@ nav img{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-size: larger;
+    font-size:3vw;
+    font-weight: bolder;
 }
 
 .main-img{
@@ -85,6 +86,17 @@ nav img{
   flex-wrap: wrap;
   flex-direction: row;
   align-content: center;
+  border-color: blanchedalmond;
+  border:dashed;
+  margin-top: 2%;
+  justify-content: space-around;
+}
+
+.other-news ul li{
+    border:solid;
+    margin-bottom: 5%;
+    align-items: stretch;
+    
 }
 .other-news img{
     width: 300px;
