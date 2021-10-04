@@ -2,12 +2,11 @@
 
 Newspaper style webpage for Week 3 - Become a Software Developer
 ----
-GITHUB PAGES: https://elowenst.github.io/Week3/week-3.html
---
-Repo: https://github.com/elowenst/Week3
+GITHUB PAGES: Click [here](https://elowenst.github.io/Week3/week-3.html) to go to HTML week-3 file. 
+---
+Repo: Click [here](https://github.com/elowenst/Week3) to go to my Github Repository.
 ----
-
-Use of media queries and flexbox for Responsive web design
+This week: Use of media queries and flexbox for Responsive web design
 
 ----
 
