@@ -9,38 +9,41 @@ a:hover {
 .main-header{
     display: flex;
     background-color:#343a40;
-    justify-content: space-around;
-    color: blanchedalmond;
-    font-size: 5vw;
-    margin-top: 20px;
-}
-ul{
-    list-style: none;
-    display: flex;
-}
-.row{
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     color: blanchedalmond;
-    font-size: 2.5vw;
+    align-items: center;
+    font-size: 5vw;
+    margin: auto;
+    width: 85%;
+}
+.main-header ul{
+    display: none;
+}
+
+.row ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    font-size: 0.9em;
+    width: 85%;
+    margin: auto;
 }
 .row p{
     color: burlywood;
 }
-.row img{
-    display: none;
-}
+
 nav ul li{
     padding: 2vw;
     
 }
 nav ul li a{
-    color: blanchedalmond;
+    color: #343a40;
     text-decoration: none;
     font-weight: bolder;
     font-size: 2vw;
 }
+
 
 nav img{
     display: flex;
@@ -74,9 +77,13 @@ nav img{
 .news-1{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     font-size:3vw;
     font-weight: bolder;
+}
+.news-1 img{
+    max-width: 100%;
 }
 
 
@@ -91,25 +98,9 @@ nav img{
 }
 
 
-.other-news ul{
-  display: flex;  
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-content: center;
-  border-color: blanchedalmond;
-  border:dashed;
-  margin-top: 2%;
-  justify-content: space-around;
-  padding: 1.5em;
-}
-
-.other-news ul li{
-    border:solid;
-    margin-bottom: 5%;  
-}
 .other-news img{
-    width: 30vw;
-    height: auto;
+    max-width: 100%;
+    height: max-content;
   }
 
   .other-news a{
@@ -124,18 +115,24 @@ nav img{
 
   .socialnetworks {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     color: blanchedalmond;
     align-items: center;
-    flex-wrap: wrap;
 }
 
-  .socialnetworks ul li{
+  .socialnetworks ul{
       display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
       padding: 10px;
   }
+  .socialnetworks ul li{
+    padding: 10px;
+}
 
-  footer hr{
+
+    hr{
       border: 1px solid blanchedalmond;
       margin-left: 10px;
       margin-right: 10px;
@@ -161,16 +158,71 @@ nav img{
     cursor: pointer;
   }
   
-@media only screen and (max-width: 576px){
-    .row ul{
+@media only screen and (min-width: 480px){
+    .main-header img{
         display: none;
     }
-    .row img{
-        display: block;
+    .main-header a{
+        color: blanchedalmond;
     }
-    .row{
-        display:flex;
-        justify-content: space-between;
+
+    .main-header ul{
+        display: flex;
+        width: 42%;
+      }
+
+    .other-news ul{
+        display: flex;  
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        border-color: blanchedalmond;
+        border:dashed;
+        margin-top: 2%;
+        justify-content: space-around;
         padding: 1.5em;
+        font-size: 3vw;
     }
+    .other-news ul li{
+        flex: 35%;
+        margin-right: 25px;
+    }
+    .other-news img{
+        height:auto;
+        width: auto;
+        max-width: 100%;
+        max-height: 100%;
+      }
 }
+
+@media only screen and (min-width: 768px){
+    .news-1{
+        display: flex;
+        flex-direction: row;
+    }
+    .news-1 img{
+        margin-right: 20px;
+        padding-bottom: 20px;
+        width: 50%;
+    }
+    .main-news{
+        width: 50%;
+    }
+    .other-news ul{
+        font-size: 2vw;
+    }
+    .other-news img{
+        height:auto;
+        width: auto;
+        max-width: 100%;
+        max-height: 100%;
+      }
+
+    .other-news ul li{
+        justify-content: center;
+        align-items: center;
+        flex: 25%;
+        }
+}
+
